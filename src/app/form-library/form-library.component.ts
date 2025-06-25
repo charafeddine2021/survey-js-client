@@ -93,38 +93,6 @@ export class FormLibraryComponent implements OnInit {
         });
       }
     });
-
-    (window as any).click1 = () => {
-      if (this.surveyModel) {
-        console.log("click 1 :", this.surveyModel.data);
-      } else {
-        console.warn("surveyModel non initialisé");
-      }
-    };
-
-    (window as any).click2 = () => {
-      if (this.surveyModel) {
-        console.log("click 2 :", this.surveyModel.data);
-      } else {
-        console.warn("surveyModel non initialisé");
-      }
-    };
-
-    (window as any).click3 = () => {
-      if (this.surveyModel) {
-        console.log("click 3 :", this.surveyModel.data);
-      } else {
-        console.warn("surveyModel non initialisé");
-      }
-    };
-
-    (window as any).click4 = () => {
-      if (this.surveyModel) {
-        console.log("click 4 :", this.surveyModel.data);
-      } else {
-        console.warn("surveyModel non initialisé");
-      }
-    };
   }
 }
 
