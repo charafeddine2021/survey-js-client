@@ -1,0 +1,26 @@
+::ng-deep .my-panel-title {
+    background-color: #e3f2fd;
+    padding: 10px;
+    font-weight: bold;
+    color: #1976d2;
+    border-radius: 8px;
+  }
+
+
+
+  //navigation button
+  ::ng-deep .save-button {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    transition: background-color 0.3s;
+    float: left;
+  }
+  
+  ::ng-deep .save-button:hover {
+    background-color: #0d47a1;
+  }
+  

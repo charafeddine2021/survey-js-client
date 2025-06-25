@@ -1,0 +1,9 @@
+<select class="custom-select" [(ngModel)]="selectedOption" (change)="onChangeDate()" *ngIf="!isLoading">
+    <option *ngFor="let option of options" [value]="option.value">
+      {{ option.label }}
+    </option>
+  </select>
+  
+<survey-creator [model]="creator" *ngIf="!isLoading"></survey-creator>
+
+<div *ngIf="isLoading" class="spinner"></div>
