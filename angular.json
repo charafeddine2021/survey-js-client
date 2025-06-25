@@ -34,8 +34,7 @@
             "styles": [
               "src/styles.scss",
               "node_modules/survey-core/survey-core.min.css",
-              "node_modules/survey-creator-core/survey-creator-core.min.css",
-              "node_modules/quill/dist/quill.snow.css"
+              "node_modules/survey-creator-core/survey-creator-core.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
